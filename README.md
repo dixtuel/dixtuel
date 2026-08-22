@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,45:3d0a0a,100:8B0000&height=200&section=header&text=Asr%C4%B1n%20K%C4%B1l%C4%B1%C3%A7&fontSize=46&fontColor=f0d0d0&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%26%20AI%20Systems%20Developer&descAlignY=58&descSize=18" width="100%"/>
+# Asrın Kılıç
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=C23B3B&center=true&vCenter=true&width=560&lines=Building+production+systems+solo;FastAPI+%2B+Next.js+%2B+PostgreSQL;AI+tooling+%26+automation;Currently+running+a+one-person+VDS" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=C23B3B&center=true&vCenter=true&width=560&lines=Building+production+systems+solo;FastAPI+%2B+Next.js+%2B+PostgreSQL;AI+tooling+%26+model+orchestration;Currently+running+a+one-person+VDS" alt="Typing SVG" />
 
 <br/>
 
@@ -21,45 +21,49 @@
 
 ### Hakkımda
 
-Tek başıma kendi sunucumu (VDS) yönetip üzerinde birden fazla production servisi işleten bir full stack geliştiriciyim. İşin "yazılım" kısmı kadar "işletme" kısmıyla da ilgileniyorum: deploy, izleme, güvenlik, yedekleme — hepsi tek elden.
+Tek başıma kendi sunucumu (VDS) yönetip üzerinde birden fazla production servisi işleten bir full stack geliştiriciyim. İşin "yazılım" kısmı kadar "işletme" kısmıyla da ilgileniyorum: deploy, izleme, güvenlik, yedekleme — hepsi tek elden, tek kişilik bir operasyon.
 
-Backend'de Python (FastAPI, Flask) ve TypeScript (Next.js) kullanıyorum, veriyi PostgreSQL/Redis üzerine kuruyorum, bunun yanında AI destekli araçlar (kod asistanı entegrasyonları, otomasyon botları, model orkestrasyonu) üzerine çalışıyorum.
+Backend'de Python (FastAPI, Flask) ve TypeScript (Next.js) kullanıyorum, veriyi PostgreSQL/Redis üzerine kuruyorum. Son dönemde ağırlığı AI destekli developer tooling'e verdim: model orkestrasyonu, tool-calling/agent döngüleri, AI gateway'ler ve otomasyon.
 
-```yaml
-şu_an:
-  geliştiriyor: [PulseRoute, Commit Günlüğü, Mikoshi AI]
-  odak: [AI destekli developer tooling, self-hosted altyapı]
-  ilgi_alanı: [backend güvenliği, model routing, changelog/dev-tooling ürünleri]
-```
+**Açık olduğum konular:** backend/AI tooling projelerinde işbirliği, açık kaynağa katkı, self-hosted altyapı üzerine sohbet.
 
 ---
 
 ### Teknoloji
 
-Gerçekten kullandığım stack — proje bağımlılıklarından (`pyproject.toml`, `package.json`) alındı:
+Aşağıdaki liste gerçekten kullandığım şeylerden oluşuyor — proje bağımlılık dosyalarından (`pyproject.toml`, `package.json`) ve kaynak kodundan doğrulandı, rastgele doldurulmadı.
 
-<div align="center">
+**Diller**
 
-![Python](https://img.shields.io/badge/-Python-0a0a0f?style=flat-square&logo=python&logoColor=C23B3B)
-![TypeScript](https://img.shields.io/badge/-TypeScript-0a0a0f?style=flat-square&logo=typescript&logoColor=C23B3B)
-![FastAPI](https://img.shields.io/badge/-FastAPI-0a0a0f?style=flat-square&logo=fastapi&logoColor=C23B3B)
-![Flask](https://img.shields.io/badge/-Flask-0a0a0f?style=flat-square&logo=flask&logoColor=C23B3B)
-![Next.js](https://img.shields.io/badge/-Next.js-0a0a0f?style=flat-square&logo=next.js&logoColor=C23B3B)
-![Node.js](https://img.shields.io/badge/-Node.js-0a0a0f?style=flat-square&logo=node.js&logoColor=C23B3B)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-0a0a0f?style=flat-square&logo=postgresql&logoColor=C23B3B)
-![Redis](https://img.shields.io/badge/-Redis-0a0a0f?style=flat-square&logo=redis&logoColor=C23B3B)
-![Prisma](https://img.shields.io/badge/-Prisma-0a0a0f?style=flat-square&logo=prisma&logoColor=C23B3B)
-![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-0a0a0f?style=flat-square&logo=sqlalchemy&logoColor=C23B3B)
-![Docker](https://img.shields.io/badge/-Docker-0a0a0f?style=flat-square&logo=docker&logoColor=C23B3B)
-![Caddy](https://img.shields.io/badge/-Caddy-0a0a0f?style=flat-square&logo=caddy&logoColor=C23B3B)
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-0a0a0f?style=flat-square&logo=cloudflare&logoColor=C23B3B)
-![Linux](https://img.shields.io/badge/-Linux-0a0a0f?style=flat-square&logo=linux&logoColor=C23B3B)
+<img src="https://skillicons.dev/icons?i=python,ts,js,bash&theme=dark" />
 
-</div>
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind,html,css&theme=dark" />
+
+**Backend & Veritabanı**
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,nodejs,express,postgres,sqlite,redis,prisma&theme=dark" />
+
+**Cloud, DevOps & Araçlar**
+
+<img src="https://skillicons.dev/icons?i=docker,cloudflare,linux,git,github,githubactions,vercel,render&theme=dark" />
 
 ---
 
-### Projeler
+### AI / ML Uzmanlığı
+
+| Alan | Seviye | Detay |
+|---|---|---|
+| Çoklu-model orkestrasyonu / routing | Production | Mikoshi AI'da 7 görev profiline (chat, reasoning, code, vision, tool_agent vb.) göre model seçimi ve versiyonlu model zinciri yönetimi |
+| Native tool calling / ReAct döngüsü | Production | Model `tool_calls` ürettiğinde aracı çalıştırıp sonucu tekrar modele besleyen döngü; allowlist'e girmeyen modellerde fail-closed |
+| AI Gateway / provider soyutlama | Production | CloudClaude Workers AI — Anthropic Messages API'yi Workers AI'nin OpenAI-uyumlu endpoint'ine çeviren adaptör, 429 quota'da otomatik provider/model rotasyonu ve dinamik fallback zinciri |
+| AI destekli içerik üretimi | Uygulanmış | Commit Günlüğü'nde ham commit/PR verisini müşteri diline çevrilmiş changelog taslağına dönüştüren worker |
+| RAG worker altyapısı | Uygulanmış | Mikoshi AI'da ayrı bir Dramatiq kuyruğu (`rag-worker`) olarak çalışıyor |
+
+---
+
+### Öne Çıkan Projeler
 
 <details open>
 <summary><b>PulseRoute — Enterprise-Grade URL Shortener, Custom Domains & Real-Time Analytics</b></summary>
@@ -69,11 +73,13 @@ Multi-tenant link kısaltma platformu: sub-10ms yönlendirme, Caddy On-Demand TL
 
 | | |
 |---|---|
-| **Stack** | FastAPI, SQLAlchemy (async), PostgreSQL/SQLite, Redis, Typer + Rich CLI, Caddy |
-| **Güvenlik** | Parametreli sorgular (SQLi koruması), workspace izolasyonu, brute-force jail, KVKK/GDPR IP maskeleme, AES-256-GCM veri şifreleme |
-| **Deploy** | Zero-config Render (embedded SQLite) → tam Docker Compose (Postgres + Redis + Caddy) |
-| **Demo** | [pulseroute.onrender.com](https://pulseroute.onrender.com) |
+| **Stack** | FastAPI, SQLAlchemy (async), PostgreSQL/SQLite, Redis, Tailwind CSS + Chart.js (dashboard), Typer + Rich (CLI), Caddy |
+| **Ölçek** | Tek instance, self-hosted / Render — çoklu workspace, izole veri modeliyle çok-kiracılı çalışacak şekilde tasarlandı |
+| **Performans** | Redis cache-aside + singleflight locking ile sub-10ms HTTP 307 yönlendirme |
+| **Güvenlik** | Parametreli sorgular, workspace izolasyonu + auth zorunluluğu, brute-force jail (10 denemede 10dk ban), KVKK/GDPR IP maskeleme, AES-256-GCM veri şifreleme |
+| **CI/CD** | GitHub Actions (`ci.yml`, `docker-publish.yml`) |
 | **Repo** | [dixtuel/pulseroute](https://github.com/dixtuel/pulseroute) — public, MIT |
+| **Demo** | [pulseroute.onrender.com](https://pulseroute.onrender.com) |
 
 </details>
 
@@ -85,9 +91,9 @@ GitHub commit ve pull request'leri okuyup müşteri diline çevrilmiş bir "Yeni
 
 | | |
 |---|---|
-| **Stack** | Next.js 14 (App Router), Prisma + PostgreSQL, BullMQ + ioredis (worker kuyruğu), GitHub App (Octokit webhook), NextAuth, Stripe |
-| **Yapı** | Pazarlama sitesi + panel (Next.js), bağımsız gömülebilir widget (esbuild), AI destekli commit → changelog özetleme worker'ı |
-| **Durum** | Uçtan uca tasarlanmış MVP scaffold — henüz derleme bu ortamda doğrulanmadı |
+| **Stack** | Next.js 14 (App Router), React, Prisma + PostgreSQL, BullMQ + ioredis (worker kuyruğu), GitHub App (Octokit webhook), NextAuth, Stripe |
+| **Ölçek** | Çok-müşterili SaaS olarak tasarlandı; bağımsız, framework'süz gömülebilir widget (esbuild ile derleniyor) |
+| **Durum** | Uçtan uca tasarlanmış MVP scaffold — bu ortamda Node.js kurulu olmadığından `npm install`/`next build` henüz doğrulanmadı |
 | **Repo** | [dixtuel/commit-gunlugu](https://github.com/dixtuel/commit-gunlugu) — private |
 
 </details>
@@ -100,8 +106,9 @@ Claude Code'un Anthropic Messages API isteklerini Cloudflare Workers AI'nin Open
 
 | | |
 |---|---|
-| **Amaç** | Claude Code CLI'ı Cloudflare Workers AI modelleriyle köprülemek |
-| **Öne çıkan** | Opsiyonel AI Gateway BYOK modu, 429 quota'da otomatik provider/model rotasyonu, dinamik routing ve fallback zinciri desteği |
+| **Stack** | Node.js, Bash, Cloudflare Workers AI / AI Gateway |
+| **Öne çıkan** | Opsiyonel AI Gateway BYOK modu, Workers AI 429 quota'sında otomatik provider/model rotasyonu, dinamik routing ve çok-sağlayıcılı fallback zinciri, sır içermeyen (secret-free) tanılama modu |
+| **Kapsam** | Yalnızca `127.0.0.1`'de dinleyen, tek Claude Code oturumu boyunca yaşayan yerel adaptör |
 | **Repo** | [dixtuel/cloudclaude-workers-ai](https://github.com/dixtuel/cloudclaude-workers-ai) — private |
 
 </details>
@@ -114,9 +121,9 @@ Sohbet, araştırma, dosya analizi ve görsel üretimini tek bir kişisel alanda
 
 | | |
 |---|---|
-| **Stack** | Flask/Gunicorn web paneli, PostgreSQL, Redis + Dramatiq worker kuyrukları |
-| **Öne çıkan** | 7 görev profiline göre (chat, reasoning, code, vision, tool_agent...) çoklu model routing, native tool calling ile ReAct döngüsü (web arama, hava durumu, rota, oyun/anime sorgulama vb.) |
-| **Not** | Kapalı kaynak, kişisel altyapıda çalışıyor |
+| **Stack** | Flask/Gunicorn web paneli, PostgreSQL, Redis + Dramatiq worker kuyrukları (ai/heavy/media/rag) |
+| **Öne çıkan** | 7 görev profiline göre çoklu model routing, native tool calling ile ReAct döngüsü (web arama, hava durumu, rota, oyun/anime sorgulama vb.), Telegram/Discord bot entegrasyonu, Home Assistant MQTT köprüsü |
+| **Kapsam** | Kapalı kaynak, kişisel altyapıda production'da çalışıyor |
 
 </details>
 
@@ -128,7 +135,7 @@ Fotoğraf restorasyonu, renklendirme ve Photoshop hizmeti sunan, sipariş akış
 
 | | |
 |---|---|
-| **Stack** | Node.js/Express backend, statik frontend, Nginx, Shopier entegrasyonu |
+| **Stack** | Node.js/Express backend, statik frontend, Font Awesome, Nginx, Shopier entegrasyonu |
 | **Canlı** | [pixel.dxtl.com.tr](https://pixel.dxtl.com.tr) |
 
 </details>
@@ -139,12 +146,64 @@ Fotoğraf restorasyonu, renklendirme ve Photoshop hizmeti sunan, sipariş akış
 
 <div align="center">
 
-<img src="https://github-readme-stats-mu-steel-28.vercel.app/api?username=dixtuel&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=C23B3B&icon_color=8B0000&text_color=e5c9c9" width="48%" />
+<img src="https://gh-readme-stats.vercel.app/api?username=dixtuel&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=C23B3B&icon_color=8B0000&text_color=e5c9c9" width="48%" />
 <img src="https://streak-stats.demolab.com/?user=dixtuel&hide_border=true&background=0a0a0f&stroke=8B0000&ring=8B0000&fire=C23B3B&currStreakLabel=e5c9c9&sideLabels=e5c9c9&currStreakNum=e5c9c9&sideNums=e5c9c9&dates=8a7070" width="48%" />
 
-<br/>
+<img src="https://gh-readme-stats.vercel.app/api/top-langs/?username=dixtuel&layout=compact&hide_border=true&bg_color=0a0a0f&title_color=C23B3B&text_color=e5c9c9" width="48%" />
+
+</div>
+
+---
+
+### Trophies
+
+<div align="center">
+
+<img src="https://github-trophies.vercel.app/?username=dixtuel&theme=darkhub&no-frame=true&row=1&column=6&margin-w=8" />
+
+</div>
+
+---
+
+### Katkı Aktivitesi
+
+<div align="center">
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=dixtuel&bg_color=0a0a0f&color=e5c9c9&line=8B0000&point=C23B3B&hide_border=true" width="97%" />
+
+</div>
+
+---
+
+### Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/dixtuel/dixtuel/output/snake-dark.svg" width="97%" />
+
+</div>
+
+---
+
+### Şu An
+
+```yaml
+şu_an:
+  geliştiriyor: [PulseRoute, Commit Günlüğü, Mikoshi AI]
+  odak: [AI destekli developer tooling, self-hosted altyapı]
+  keşfediyor: [AI Gateway / model fallback mimarileri, agent orkestrasyonu]
+  açık: [backend/AI tooling işbirliği, açık kaynak katkısı]
+```
+
+---
+
+### İletişim
+
+<div align="center">
+
+<a href="mailto:asrinklcc@dxtl.com.tr"><img src="https://img.shields.io/static/v1?label=&message=Gmail&color=0a0a0f&style=flat-square&logo=gmail&logoColor=C23B3B" /></a>
+<a href="https://github.com/dixtuel"><img src="https://img.shields.io/static/v1?label=&message=GitHub&color=0a0a0f&style=flat-square&logo=github&logoColor=C23B3B" /></a>
+<a href="https://dxtl.com.tr"><img src="https://img.shields.io/static/v1?label=&message=Portfolio&color=0a0a0f&style=flat-square&logo=firefox&logoColor=C23B3B" /></a>
 
 </div>
 
