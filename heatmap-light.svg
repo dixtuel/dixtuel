@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="855" height="181" viewBox="0 0 855 181">
 <rect width="855" height="181" rx="12" fill="#faf6f5"/>
-<text x="40" y="24" font-family="'Fira Code','Courier New',monospace" font-size="13" fill="#1a1010">dixtuel &#8212; contribution heatmap (51 son 12 ay)</text>
+<text x="40" y="24" font-family="'Fira Code','Courier New',monospace" font-size="13" fill="#1a1010">dixtuel &#8212; contribution heatmap (58 son 12 ay)</text>
 <text x="40" y="38" font-family="'Fira Code','Courier New',monospace" font-size="9" fill="#8a6a6a">Agu</text>
 <rect x="40" y="46" width="12" height="12" rx="2" fill="#15151c"><title>2025-08-17: 0</title></rect>
 <rect x="40" y="61" width="12" height="12" rx="2" fill="#15151c"><title>2025-08-18: 0</title></rect>
@@ -383,8 +383,8 @@
 <rect x="820" y="76" width="12" height="12" rx="2" fill="#15151c"><title>2026-08-18: 0</title></rect>
 <rect x="820" y="91" width="12" height="12" rx="2" fill="#15151c"><title>2026-08-19: 0</title></rect>
 <rect x="820" y="106" width="12" height="12" rx="2" fill="#15151c"><title>2026-08-20: 0</title></rect>
-<rect x="820" y="121" width="12" height="12" rx="2" fill="#15151c"><title>2026-08-21: 0</title></rect>
-<rect x="820" y="136" width="12" height="12" rx="2" fill="#ff6b5b"><title>2026-08-22: 50</title></rect>
+<rect x="820" y="121" width="12" height="12" rx="2" fill="#3d0a0a"><title>2026-08-21: 1</title></rect>
+<rect x="820" y="136" width="12" height="12" rx="2" fill="#ff6b5b"><title>2026-08-22: 56</title></rect>
 <text x="40" y="171" font-family="'Fira Code','Courier New',monospace" font-size="10" fill="#8a6a6a">az</text>
 <rect x="739" y="153" width="12" height="12" rx="2" fill="#15151c"/>
 <rect x="755" y="153" width="12" height="12" rx="2" fill="#3d0a0a"/>
