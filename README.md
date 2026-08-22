@@ -139,7 +139,7 @@ Fotoğraf restorasyonu, renklendirme ve Photoshop hizmeti sunan, sipariş akış
 
 <div align="center">
 
-<img src="https://gh-readme-stats.vercel.app/api?username=dixtuel&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=C23B3B&icon_color=8B0000&text_color=e5c9c9" width="48%" />
+<img src="https://github-readme-stats-mu-steel-28.vercel.app/api?username=dixtuel&show_icons=true&hide_border=true&bg_color=0a0a0f&title_color=C23B3B&icon_color=8B0000&text_color=e5c9c9" width="48%" />
 <img src="https://streak-stats.demolab.com/?user=dixtuel&hide_border=true&background=0a0a0f&stroke=8B0000&ring=8B0000&fire=C23B3B&currStreakLabel=e5c9c9&sideLabels=e5c9c9&currStreakNum=e5c9c9&sideNums=e5c9c9&dates=8a7070" width="48%" />
 
 <br/>
