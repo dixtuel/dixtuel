@@ -1,0 +1,38 @@
+name: Update Contribution Heatmap
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate heatmap SVGs
+        run: python3 scripts/gen_heatmap.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet -- heatmap-dark.svg heatmap-light.svg; then
+            git add heatmap-dark.svg heatmap-light.svg
+            git commit -m "chore: refresh contribution heatmap"
+            git push
+          else
+            echo "No change in contribution data, skipping commit."
+          fi
+
+      - name: Purge jsdelivr cache
+        if: success()
+        run: |
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/dixtuel/dixtuel@main/heatmap-dark.svg"
+          curl -s -o /dev/null "https://purge.jsdelivr.net/gh/dixtuel/dixtuel@main/heatmap-light.svg"
