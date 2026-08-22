@@ -142,8 +142,8 @@ def build(theme):
     parts.append('<circle cx="42" cy="20" r="5" fill="#F59E0B"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.3s" repeatCount="indefinite"/></circle>')
     parts.append('<circle cx="60" cy="20" r="5" fill="#10B981"><animate attributeName="opacity" values="1;0.55;1" dur="4s" begin="0.6s" repeatCount="indefinite"/></circle>')
     parts.append(f'<text x="{W//2}" y="25" text-anchor="middle" class="term-label">dixtuel@vds ~ % ./profile.sh --live</text>')
-    parts.append(f'<circle cx="{W-58}" cy="20" r="4" fill="{scan_label}"><animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/></circle>')
-    parts.append(f'<text x="{W-48}" y="24" class="scan-label">SCANNING</text>')
+    parts.append(f'<circle cx="{W-96}" cy="20" r="4" fill="{scan_label}"><animate attributeName="opacity" values="1;0.15;1" dur="1.1s" repeatCount="indefinite"/></circle>')
+    parts.append(f'<text x="{W-22}" y="24" text-anchor="end" class="scan-label">SCANNING</text>')
     parts.append("</g>")
 
     parts.append('<g transform="translate(0,38)">')
