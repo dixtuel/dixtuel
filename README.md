@@ -1,17 +1,17 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0817,50:2d1b4e,100:5b21b6&height=200&section=header&text=Asrın%20Kılıç&fontSize=46&fontColor=e9d5ff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%26%20AI%20Systems%20Developer&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:121829,50:3d1010,100:8B0000&height=200&section=header&text=Asrın%20Kılıç&fontSize=46&fontColor=f5d5d5&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20%26%20AI%20Systems%20Developer&descAlignY=58&descSize=18" width="100%"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=A78BFA&center=true&vCenter=true&width=560&lines=Building+production+systems+solo;FastAPI+%2B+PostgreSQL+%2B+Redis;AI+orchestration+%26+automation;Currently+running+a+one-person+VDS" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=C23B3B&center=true&vCenter=true&width=560&lines=Building+production+systems+solo;FastAPI+%2B+Next.js+%2B+PostgreSQL;AI+tooling+%26+automation;Currently+running+a+one-person+VDS" alt="Typing SVG" />
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-dxtl.com.tr-5b21b6?style=for-the-badge&logo=firefox&logoColor=white)](https://dxtl.com.tr)
-[![Gmail](https://img.shields.io/badge/Email-asrinklcc%40dxtl.com.tr-6d28d9?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asrinklcc@dxtl.com.tr)
-[![GitHub](https://img.shields.io/badge/GitHub-dixtuel-4c1d95?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dixtuel)
+[![Portfolio](https://img.shields.io/badge/Portfolio-dxtl.com.tr-121829?style=for-the-badge&logo=firefox&logoColor=C23B3B)](https://dxtl.com.tr)
+[![Gmail](https://img.shields.io/badge/Email-asrinklcc%40dxtl.com.tr-8B0000?style=for-the-badge&logo=gmail&logoColor=white)](mailto:asrinklcc@dxtl.com.tr)
+[![GitHub](https://img.shields.io/badge/GitHub-dixtuel-121829?style=for-the-badge&logo=github&logoColor=C23B3B)](https://github.com/dixtuel)
 
-![Profile Views](https://komarev.com/ghpvc/?username=dixtuel&color=8b5cf6&style=flat-square&label=Profile+Views)
-![Followers](https://img.shields.io/github/followers/dixtuel?style=flat-square&color=8b5cf6&label=Followers)
+![Profile Views](https://komarev.com/ghpvc/?username=dixtuel&color=8B0000&style=flat-square&label=Profile+Views)
+![Followers](https://img.shields.io/github/followers/dixtuel?style=flat-square&color=8B0000&label=Followers)
 
 </div>
 
@@ -19,33 +19,39 @@
 
 ### Hakkımda
 
-Tek başıma kendi sunucumu (VDS) yönetip üzerinde birden fazla production servisi işleten bir full stack geliştiriciyim. İşin "yazılım" kısmı kadar "işletme" kısmıyla da ilgileniyorum: deploy, izleme, güvenlik açıkları, yedekleme — hepsi tek elden.
+Tek başıma kendi sunucumu (VDS) yönetip üzerinde birden fazla production servisi işleten bir full stack geliştiriciyim. İşin "yazılım" kısmı kadar "işletme" kısmıyla da ilgileniyorum: deploy, izleme, güvenlik, yedekleme — hepsi tek elden.
 
-Ağırlıklı olarak Python (FastAPI/Flask) ve Node.js ile backend yazıyorum, PostgreSQL/Redis üzerine kuruyorum, son dönemde de AI destekli araçlar (kod asistanları, otomasyon botları, orkestrasyon sistemleri) üzerine yoğunlaşıyorum.
+Backend'de Python (FastAPI, Flask) ve TypeScript (Next.js) kullanıyorum, veriyi PostgreSQL/Redis üzerine kuruyorum, bunun yanında AI destekli araçlar (kod asistanı entegrasyonları, otomasyon botları, model orkestrasyonu) üzerine çalışıyorum.
 
 ```yaml
 şu_an:
-  öğreniyor: [AI agent orkestrasyonu, çok-modelli routing]
-  geliştiriyor: [PulseRoute, Mikoshi AI, commit-gunlugu]
-  ilgi_alanı: [self-hosting, backend güvenliği, developer tooling]
+  geliştiriyor: [PulseRoute, Commit Günlüğü, Mikoshi AI]
+  odak: [AI destekli developer tooling, self-hosted altyapı]
+  ilgi_alanı: [backend güvenliği, model routing, changelog/dev-tooling ürünleri]
 ```
 
 ---
 
 ### Teknoloji
 
+Gerçekten kullandığım stack — proje bağımlılıklarından (`pyproject.toml`, `package.json`) alındı:
+
 <div align="center">
 
-![Python](https://img.shields.io/badge/-Python-2d1b4e?style=flat-square&logo=python&logoColor=A78BFA)
-![FastAPI](https://img.shields.io/badge/-FastAPI-2d1b4e?style=flat-square&logo=fastapi&logoColor=A78BFA)
-![Flask](https://img.shields.io/badge/-Flask-2d1b4e?style=flat-square&logo=flask&logoColor=A78BFA)
-![Node.js](https://img.shields.io/badge/-Node.js-2d1b4e?style=flat-square&logo=node.js&logoColor=A78BFA)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-2d1b4e?style=flat-square&logo=postgresql&logoColor=A78BFA)
-![Redis](https://img.shields.io/badge/-Redis-2d1b4e?style=flat-square&logo=redis&logoColor=A78BFA)
-![Docker](https://img.shields.io/badge/-Docker-2d1b4e?style=flat-square&logo=docker&logoColor=A78BFA)
-![Cloudflare](https://img.shields.io/badge/-Cloudflare-2d1b4e?style=flat-square&logo=cloudflare&logoColor=A78BFA)
-![Linux](https://img.shields.io/badge/-Linux-2d1b4e?style=flat-square&logo=linux&logoColor=A78BFA)
-![Nginx](https://img.shields.io/badge/-Nginx-2d1b4e?style=flat-square&logo=nginx&logoColor=A78BFA)
+![Python](https://img.shields.io/badge/-Python-121829?style=flat-square&logo=python&logoColor=C23B3B)
+![TypeScript](https://img.shields.io/badge/-TypeScript-121829?style=flat-square&logo=typescript&logoColor=C23B3B)
+![FastAPI](https://img.shields.io/badge/-FastAPI-121829?style=flat-square&logo=fastapi&logoColor=C23B3B)
+![Flask](https://img.shields.io/badge/-Flask-121829?style=flat-square&logo=flask&logoColor=C23B3B)
+![Next.js](https://img.shields.io/badge/-Next.js-121829?style=flat-square&logo=next.js&logoColor=C23B3B)
+![Node.js](https://img.shields.io/badge/-Node.js-121829?style=flat-square&logo=node.js&logoColor=C23B3B)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-121829?style=flat-square&logo=postgresql&logoColor=C23B3B)
+![Redis](https://img.shields.io/badge/-Redis-121829?style=flat-square&logo=redis&logoColor=C23B3B)
+![Prisma](https://img.shields.io/badge/-Prisma-121829?style=flat-square&logo=prisma&logoColor=C23B3B)
+![SQLAlchemy](https://img.shields.io/badge/-SQLAlchemy-121829?style=flat-square&logo=sqlalchemy&logoColor=C23B3B)
+![Docker](https://img.shields.io/badge/-Docker-121829?style=flat-square&logo=docker&logoColor=C23B3B)
+![Caddy](https://img.shields.io/badge/-Caddy-121829?style=flat-square&logo=caddy&logoColor=C23B3B)
+![Cloudflare](https://img.shields.io/badge/-Cloudflare-121829?style=flat-square&logo=cloudflare&logoColor=C23B3B)
+![Linux](https://img.shields.io/badge/-Linux-121829?style=flat-square&logo=linux&logoColor=C23B3B)
 
 </div>
 
@@ -54,29 +60,32 @@ Ağırlıklı olarak Python (FastAPI/Flask) ve Node.js ile backend yazıyorum, P
 ### Projeler
 
 <details open>
-<summary><b>🔗 PulseRoute — Açık Kaynak Link Kısaltma & Analitik Platformu</b></summary>
+<summary><b>🔗 PulseRoute — Enterprise-Grade URL Shortener, Custom Domains & Real-Time Analytics</b></summary>
 <br>
 
-Multi-tenant link kısaltma servisi: özel domain doğrulama, geo/device tabanlı yönlendirme, workspace bazlı yetkilendirme ve KVKK/GDPR uyumlu anonim analitik.
+Multi-tenant link kısaltma platformu: sub-10ms yönlendirme, Caddy On-Demand TLS ile özel domain doğrulama, Redis Stream tabanlı non-blocking analitik hattı ve workspace bazlı yetkilendirme.
 
 | | |
 |---|---|
-| **Stack** | FastAPI, Neon PostgreSQL, Upstash Redis, Caddy On-Demand TLS |
-| **Öne çıkan** | Redis Streams ile analitik hattı, custom domain DNS doğrulama, workspace izolasyonu |
+| **Stack** | FastAPI, SQLAlchemy (async), PostgreSQL/SQLite, Redis, Typer + Rich CLI, Caddy |
+| **Güvenlik** | Parametreli sorgular (SQLi koruması), workspace izolasyonu, brute-force jail, KVKK/GDPR IP maskeleme, AES-256-GCM veri şifreleme |
+| **Deploy** | Zero-config Render (embedded SQLite) → tam Docker Compose (Postgres + Redis + Caddy) |
 | **Demo** | [pulseroute.onrender.com](https://pulseroute.onrender.com) |
-| **Repo** | [dixtuel/pulseroute](https://github.com/dixtuel/pulseroute) — public |
+| **Repo** | [dixtuel/pulseroute](https://github.com/dixtuel/pulseroute) — public, MIT |
 
 </details>
 
 <details>
-<summary><b>💬 commit-gunlugu — Otomatik Changelog Widget'ı</b></summary>
+<summary><b>💬 Commit Günlüğü — White-Label Changelog Widget'ı</b></summary>
 <br>
 
-GitHub commit geçmişini otomatik olarak beyaz etiketli (white-label), gömülebilir bir changelog widget'ına çeviren araç.
+GitHub commit ve pull request'leri okuyup müşteri diline çevrilmiş bir "Yenilikler" bültenine dönüştüren, siteye tek satır script ile gömülen changelog widget'ı ve panosu. Ajans/freelancer'ların birden fazla müşteri projesine white-label changelog kurması hedefleniyor.
 
 | | |
 |---|---|
-| **Amaç** | Repo commit'lerinden okunabilir, müşteri/kullanıcıya gösterilebilir bir değişiklik günlüğü üretmek |
+| **Stack** | Next.js 14 (App Router), Prisma + PostgreSQL, BullMQ + ioredis (worker kuyruğu), GitHub App (Octokit webhook), NextAuth, Stripe |
+| **Yapı** | Pazarlama sitesi + panel (Next.js), bağımsız gömülebilir widget (esbuild), AI destekli commit → changelog özetleme worker'ı |
+| **Durum** | Uçtan uca tasarlanmış MVP scaffold — henüz derleme bu ortamda doğrulanmadı |
 | **Repo** | [dixtuel/commit-gunlugu](https://github.com/dixtuel/commit-gunlugu) — private |
 
 </details>
@@ -85,25 +94,26 @@ GitHub commit geçmişini otomatik olarak beyaz etiketli (white-label), gömüle
 <summary><b>🤖 CloudClaude Workers AI</b></summary>
 <br>
 
-Claude Code'u Cloudflare Workers AI üzerinden çalıştırmayı sağlayan yerel uyumluluk (compatibility) adaptörü.
+Claude Code'un Anthropic Messages API isteklerini Cloudflare Workers AI'nin OpenAI-uyumlu chat endpoint'ine çeviren, yerel çalışan bağımsız (unofficial) bir adaptör. Dosya/shell gibi araçlar yine yerel makinede çalışır.
 
 | | |
 |---|---|
-| **Amaç** | Claude Code CLI'ı, Cloudflare'in model altyapısıyla köprülemek |
+| **Amaç** | Claude Code CLI'ı Cloudflare Workers AI modelleriyle köprülemek |
+| **Öne çıkan** | Opsiyonel AI Gateway BYOK modu, 429 quota'da otomatik provider/model rotasyonu, dinamik routing ve fallback zinciri desteği |
 | **Repo** | [dixtuel/cloudclaude-workers-ai](https://github.com/dixtuel/cloudclaude-workers-ai) — private |
 
 </details>
 
 <details>
-<summary><b>🧠 Mikoshi AI — Kişisel AI Orkestrasyon Sistemi</b></summary>
+<summary><b>🧠 Mikoshi AI — "Yapay zekânla gerçekten çalış."</b></summary>
 <br>
 
-Web paneli, Telegram/Discord botları ve Home Assistant köprüsünü tek çatı altında toplayan, çoklu AI modeli arasında görev bazlı yönlendirme yapan kişisel platform.
+Sohbet, araştırma, dosya analizi ve görsel üretimini tek bir kişisel alanda birleştiren kişisel AI platformu. Web paneli, Telegram/Discord botları ve Home Assistant köprüsünü tek çatı altında toplar.
 
 | | |
 |---|---|
-| **Stack** | Flask/Gunicorn, PostgreSQL, Redis + Dramatiq worker kuyrukları |
-| **Öne çıkan** | 7 görev profiline göre model seçimi, native tool calling ile ReAct döngüsü (web arama, hava durumu, rota, oyun/anime sorgulama vb.) |
+| **Stack** | Flask/Gunicorn web paneli, PostgreSQL, Redis + Dramatiq worker kuyrukları |
+| **Öne çıkan** | 7 görev profiline göre (chat, reasoning, code, vision, tool_agent...) çoklu model routing, native tool calling ile ReAct döngüsü (web arama, hava durumu, rota, oyun/anime sorgulama vb.) |
 | **Not** | Kapalı kaynak, kişisel altyapıda çalışıyor |
 
 </details>
@@ -116,7 +126,7 @@ Fotoğraf restorasyonu, renklendirme ve Photoshop hizmeti sunan, sipariş akış
 
 | | |
 |---|---|
-| **Stack** | Node.js/Express backend, statik frontend, Shopier entegrasyonu |
+| **Stack** | Node.js/Express backend, statik frontend, Nginx, Shopier entegrasyonu |
 | **Canlı** | [pixel.dxtl.com.tr](https://pixel.dxtl.com.tr) |
 
 </details>
@@ -127,12 +137,12 @@ Fotoğraf restorasyonu, renklendirme ve Photoshop hizmeti sunan, sipariş akış
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dixtuel&show_icons=true&theme=radical&hide_border=true&bg_color=0f0817&title_color=A78BFA&icon_color=8b5cf6&text_color=c4b5fd" width="48%" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=dixtuel&theme=radical&hide_border=true&background=0f0817&stroke=8b5cf6&ring=A78BFA&fire=A78BFA&currStreakLabel=c4b5fd" width="48%" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=dixtuel&show_icons=true&hide_border=true&bg_color=121829&title_color=C23B3B&icon_color=8B0000&text_color=e5c9c9&border_color=8B0000" width="48%" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=dixtuel&hide_border=true&background=121829&stroke=8B0000&ring=8B0000&fire=C23B3B&currStreakLabel=e5c9c9&sideLabels=e5c9c9&currStreakNum=e5c9c9&sideNums=e5c9c9&dates=8a7070" width="48%" />
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dixtuel&theme=react-dark&bg_color=0f0817&color=A78BFA&line=8b5cf6&point=e9d5ff&hide_border=true" width="97%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=dixtuel&bg_color=121829&color=e5c9c9&line=8B0000&point=C23B3B&hide_border=true" width="97%" />
 
 </div>
 
@@ -142,6 +152,6 @@ Fotoğraf restorasyonu, renklendirme ve Photoshop hizmeti sunan, sipariş akış
 
 *Tek başına kurup, tek başına idame ettiriyor.*
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:5b21b6,50:2d1b4e,100:0f0817&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:3d1010,100:121829&height=100&section=footer" width="100%"/>
 
 </div>
