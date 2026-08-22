@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """Generates dark.svg / light.svg — a terminal-style identity card, structurally
-matching the reference card (titlebar, VISUAL.MAP ascii panel, SYSTEM.INFO typed
+matching the reference card (titlebar, VISUAL.MAP image panel, SYSTEM.INFO typed
 panel, scan sweep, reveal animation) but themed red/black and filled with real,
-verified facts about dixtuel. No personal photo — VISUAL.MAP renders a procedural
-'AK' monogram (see gen_ascii.py) instead of a photo-traced silhouette."""
+verified facts about dixtuel. VISUAL.MAP embeds the real GitHub avatar (base64,
+self-contained) as a red/black duotone, with an animated scan bar sweeping over it."""
+import base64
 import pathlib
-import sys
-
-sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
-from gen_ascii import render as render_ascii  # noqa: E402
 
 W, H = 1180, 610
 MONO = "'Courier New', Consolas, monospace"
+
+ASSET_DIR = pathlib.Path(__file__).resolve().parent / "assets"
+AVATAR_B64 = base64.b64encode((ASSET_DIR / "avatar.png").read_bytes()).decode()
+
+IMX, IMY, IMW, IMH = 48, 50, 420, 420
 
 INFO_LINES = [
     ("head", None, "dixtuel@vds"),
@@ -59,14 +61,26 @@ def build(theme):
     panel_title = "#c97a7a"
     scanline_col = "#ff9d8a"
 
-    ascii_lines = render_ascii()
-
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">']
     parts.append("<defs>")
     parts.append(
-        '<linearGradient id="asciiGrad" x1="0%" y1="0%" x2="100%" y2="100%">'
-        '<stop offset="0%" stop-color="#C23B3B"><animate attributeName="stop-color" values="#C23B3B;#8B0000;#ff6b5b;#C23B3B" dur="9s" repeatCount="indefinite"/></stop>'
-        '<stop offset="100%" stop-color="#8B0000"><animate attributeName="stop-color" values="#8B0000;#ff6b5b;#C23B3B;#8B0000" dur="9s" repeatCount="indefinite"/></stop>'
+        '<filter id="duotone" color-interpolation-filters="sRGB">'
+        '<feColorMatrix type="matrix" values="0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0.33 0.33 0.33 0 0  0 0 0 1 0"/>'
+        '<feComponentTransfer>'
+        '<feFuncR type="table" tableValues="0.04 1.0"/>'
+        '<feFuncG type="table" tableValues="0.04 0.42"/>'
+        '<feFuncB type="table" tableValues="0.06 0.36"/>'
+        "</feComponentTransfer>"
+        "</filter>"
+    )
+    parts.append(f'<clipPath id="imgClip"><rect x="{IMX}" y="{IMY}" width="{IMW}" height="{IMH}" rx="12"/></clipPath>')
+    parts.append(
+        '<linearGradient id="scanGrad2" x1="0%" y1="0%" x2="0%" y2="100%">'
+        '<stop offset="0%" stop-color="#ffd9d0" stop-opacity="0"/>'
+        '<stop offset="45%" stop-color="#ffd9d0" stop-opacity="0.1"/>'
+        '<stop offset="50%" stop-color="#fff0ec" stop-opacity="0.9"/>'
+        '<stop offset="55%" stop-color="#ffd9d0" stop-opacity="0.1"/>'
+        '<stop offset="100%" stop-color="#ff6b5b" stop-opacity="0"/>'
         "</linearGradient>"
     )
     parts.append(
@@ -104,7 +118,6 @@ def build(theme):
 
     parts.append(
         f"""<style>
-    .ascii  {{ font-family: {MONO}; font-size: 7.2px; fill: url(#asciiGrad); letter-spacing: -0.2px; }}
     .key    {{ font-family: {MONO}; font-size: 14px; fill: {key_col}; font-weight: bold; }}
     .value  {{ font-family: {MONO}; font-size: 14px; fill: {value_col}; }}
     .cc     {{ font-family: {MONO}; font-size: 14px; fill: {cc_col}; }}
@@ -140,12 +153,16 @@ def build(theme):
     parts.append('<text x="524" y="24" class="panel-title">SYSTEM.INFO</text>')
 
     parts.append('<g mask="url(#revealMask)">')
-    parts.append(f'<text x="30" y="0" class="ascii">')
-    ay = 42
-    for line in ascii_lines:
-        parts.append(f'<tspan x="30" y="{ay:.2f}" xml:space="preserve" fill="{ascii_dim}">{esc(line)}</tspan>')
-        ay += 8.9
-    parts.append("</text>")
+    parts.append(
+        f'<image href="data:image/png;base64,{AVATAR_B64}" x="{IMX}" y="{IMY}" width="{IMW}" height="{IMH}" '
+        f'clip-path="url(#imgClip)" filter="url(#duotone)" preserveAspectRatio="xMidYMid slice"/>'
+    )
+    parts.append(f'<rect x="{IMX}" y="{IMY}" width="{IMW}" height="{IMH}" rx="12" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" opacity="0.55"/>')
+    parts.append(
+        f'<rect x="{IMX}" y="{IMY-60}" width="{IMW}" height="60" fill="url(#scanGrad2)" clip-path="url(#imgClip)" style="mix-blend-mode:screen">'
+        f'<animateTransform attributeName="transform" type="translate" from="0 0" to="0 {IMH+60}" dur="2.6s" repeatCount="indefinite"/>'
+        "</rect>"
+    )
     parts.append("</g>")
 
     for i, (kind, key, val) in enumerate(INFO_LINES):
