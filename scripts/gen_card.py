@@ -17,7 +17,7 @@ IMX, IMY, IMW, IMH = 48, 50, 420, 420
 
 INFO_LINES = [
     ("head", None, "dixtuel@vds"),
-    ("kv", "Subject", "Asrin Kilic"),
+    ("kv", "Subject", "dixtuel"),
     ("kv", "Role", "Full-Stack & AI Systems Developer"),
     ("kv", "Origin", "Turkiye"),
     ("kv", "Status", "Building - Shipping - Self-hosting"),
